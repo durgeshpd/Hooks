@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  border: 1px solid black;
+  margin: 5px;
+  width: 200px;
+}
+
+.res-img {
+  max-width: 100%; /* Ensures it doesn’t overflow */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes extra spacing */
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
